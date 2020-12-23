@@ -14,7 +14,9 @@
       h1 {
         font-size: 45px;
         text-align: center;
-        padding: 20px;
+        padding: 0;
+        margin: 0;
+        background-color: powderblue;
       }
       ul {
         font-size: 30px; font-weight: bold;
@@ -27,16 +29,22 @@
         height: 1000px;
       }
       .location {
-        color:gray;
+        color:pink;
       }
       .subtitle {
-        margin-top: 15px;
+        margin-top: 0;
         padding-bottom: 20px;
         border-bottom: 5px solid pink;
+        background-color: powderblue;
+      }
+      .StoreName {
+        color: purple;
+        font-weight : bold;
       }
       #grid{
         display: grid;
         grid-template-columns: 150px 1fr;
+        background-color: powderblue;
       }
       #article{
         padding-left: 60px;
@@ -47,9 +55,9 @@
 
   </head>
   <body>
-    <h1><a href="index.html" style="color:powderblue">Fairy Cake</a></h1>
+    <h1><a href="index.html" style="color:pink">Fairy Cake</a></h1>
     <div class="subtitle" style="text-align: center; color:purple; font-weight: bold;">
-        " 내가  찾던 케이크를 찾아주는 요정 "
+        <br>" 내가  찾던 케이크를 찾아주는 요정 "
     </div>
     <div id="grid">
         <ul>
@@ -58,8 +66,8 @@
         <li><a href="location3.html" class="location">location3</a></li><br>
         </ul>
         <div id="article">
-          <h2>강남구</h2><br>
-          <div>- 이름 클릭 시 인스타 연결- </div><br>
+          <h2>강남구 소재 케이크</h2><br>
+          <div>- 이름 클릭 시 상세페이지- </div><br>
           <div><a href="https://www.instagram.com/planplan_seoul/" target="blank" class="StoreName">플랑플랑</a></div><br>
           <div><a href="https://www.instagram.com/soocake_ully/" target="blank" class="StoreName">아뜰리에 수</a></div><br>
           <div><a href="https://www.instagram.com/tartinebakery_seoul/" target="blank" class="StoreName">타르틴 베이커리</a></div><br>
